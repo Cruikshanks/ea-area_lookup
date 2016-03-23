@@ -2,21 +2,21 @@ require "spec_helper"
 
 describe EA::AreaLookup::Configuration do
 
-  it {is_expected.to respond_to(:yay) }
+  it { is_expected.to respond_to(:administrative_area_api_url) }
 
   describe "#configure" do
     it "can set and get configuration options" do
       EA::AreaLookup.configure do |c|
-        c.yay = "a"
+        c.administrative_area_api_url = "a"
       end
     end
   end
 
   describe "#reset" do
     it "clears down previously set configuration" do
-      EA::AreaLookup.configure { |c| c.yay = "a" }
+      EA::AreaLookup.configure { |c| c.administrative_area_api_url = "a" }
       EA::AreaLookup.reset
-      expect(EA::AreaLookup.config.yay).to be_nil
+      expect(EA::AreaLookup.config.administrative_area_api_url).to be_nil
     end
   end
 end

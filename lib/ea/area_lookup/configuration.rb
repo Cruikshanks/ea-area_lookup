@@ -3,7 +3,7 @@ require "active_support/configurable"
 module EA::AreaLookup
   class Configuration
     include ActiveSupport::Configurable
-    config_accessor(:yay)
+    config_accessor(:administrative_area_api_url)
   end
 
   def self.config

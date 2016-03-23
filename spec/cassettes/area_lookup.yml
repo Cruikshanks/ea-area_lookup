@@ -1,0 +1,2883 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=HyrDr+MKMuQOqap6AEF44VQ2; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:33 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:35 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=vpuZHI1qPdd5fOgtj6Ci+TNZ; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:34 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:36 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=3cBjDVAvr9qYeQe627uj+ewm; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:35 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:37 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Ct2YieMmCjH48Z6bstZS74tQ; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:36 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:39 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=j3ZLoT2zPAFbCZmKAITy5bOz; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:37 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:40 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Ln1tT3joH-X8D3FovG-r1ZWE; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:38 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:41 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Yxn16EKxzocfqSmaZazLWixJ; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:40 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:42 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=rTHrhInkrUqow1n56LYnMQpX; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:41 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:43 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=+yM0XzC1xEfC+MZa8RuIW465; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:42 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:44 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=1tw+nOZ2uf5mspX-8g6V7SO+; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:43 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:46 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=sEHZgZaJVjrTNJQsu7oURXGY; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:44 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:47 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=mwOUwdInWYprW4Sm0nyD6FFU; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:45 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:48 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=2QqYruhtjgmvh89StgLeffEF; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:46 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:49 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=SzV7OZzLTU0bcYcXSxx1DcyH; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:47 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:50 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=ococ7kSH1ea08Vj1jfNK0gCD; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:48 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:51 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=UWPegE2OeUgJSDPbUHksnecv; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:52 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=vWgFoPDHFX3eq22TfUAScXmW; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:51 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:54 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=qNX351VILt5kEWAsjzy-bN-f; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:52 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:55 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=C6L35rZrF41VTyF18tI1QZNV; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:53 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:56 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=4dSZQ+0d9oYw3OTMqjI2fezS; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:54 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:57 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=ItpWo-GFKbx7GfR68LOwuDrr; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:55 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:58 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=K5KyuwnPq6z0FjtQe6ksuK8U; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:56 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:47:59 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=K+wsxZn8NY9a29w-r+9MXOBB; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:57 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:00 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=BOMhtQVxbST-7c5Wp3i0UcYh; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:47:58 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:01 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=G6mLyhhuvsEcSm0SCSuy7+3c; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:00 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:02 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=kX674QYgmJWA58J4kqOZruHb; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:01 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:04 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=ILA2FTB+gQHSjlZ8kmpI-HOy; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:02 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:05 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=yxFpul83PWX-rL5g0L1pizS2; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:03 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:06 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=RCCZL2mmheqU5VwgGGpls0up; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:04 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:07 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=gseRhTAjiejUlBlfpxiwumCh; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:05 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:08 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=RRQPoqdqR8uJaJn3BOBGVhZK; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:06 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:09 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=eHPyvH71aUxpeLs1g4znEw-c; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:07 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:10 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=4J4X8jCdQU4vnJL6+Wddkyx6; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:09 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:11 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Jxqg3LzWi1p7o5bLg0fvl4TO; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:15 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:17 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=LTaTaUDYxtuNyhBTSP5mWx2Q; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:16 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:18 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=R6xoYLg48zxbkQDr9pMxu-gs; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:17 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:20 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=tT64FS+WIsTbvNHmiMlrz-6D; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:18 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:21 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=SlDaq+shLBgNYBNcEeVlmOhY; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:22 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=aXWD0oDQOnAWDupsiDy3Wnf7; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:20 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:23 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=srKc-eAPHPumXbqTmBf1GVBI; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:21 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:24 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=niUFz-7yBJ3ZC4E7oYUk4l52; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:23 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:26 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=GCyXraXLcnD1c9XI8XC93NNg; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:24 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:27 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=TZDhqX3Q8doIiFhmSoCrz1K3; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:25 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:28 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=p1vtvAzfspEo8MsrDyVSJmE5; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:26 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:29 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=LieyY9OBPTgUzpyRg1CJI6f-; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:28 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:30 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=l972W3-sHxL-wzZp7EmaKpJq; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:29 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:31 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=y0sJ1GAF-1WSjNASK-BP8QEj; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:30 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:32 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=emAhdy3W8QZx9AUCiT6ZTuWM; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:31 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:34 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=GXZ83wNm+KnvrjuzQRy6nweU; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:32 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:35 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=TY0V45KHgSe9G4Gti-vvsmoC; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:33 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:36 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=tik99ZSEnB8MFrQjD4fqSTag; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:35 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:38 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=IIRXKFvm7mPSZ+WpSBinqf2Y; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:36 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:39 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=ABYnAvi8DTgyNG1YHIpzKPX4; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:37 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:40 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=isOu7DzvkWKYt6WO2SkbUnS7; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:39 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:41 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Ze5awYImhltMXYqibMXLsZaM; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:40 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:43 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=LYJFaHx6WmHOadk-MrOf7PC4; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:41 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:44 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=LCs6OksS6rmstwOJZX8GTGl4; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:42 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:45 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=vTt0YdYAzDNcwZkNxXrzh3Ga; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:43 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:46 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=srydZdsL834usjcX6IB7E64x; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:44 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:47 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=XrkAWE4t6LVDH5fij-T2o36y; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:45 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:48 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=x525LzEtASp6-K4F7uffXpHa; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:47 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:49 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=qqfHLcRiR7+BTDX+i6YE3O-4; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:48 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:50 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=xX1kP4w40w-sJHcmUKAPj+0z; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:51 GMT
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E356954,210303%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=Gci7x7bv6-YkdsZciWCwmOlP; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Tue, 08 Mar 2016 15:48:50 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=52102680&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>316112.900000
+        187934.400000</gml:lowerCorner>\n      \t\t<gml:upperCorner>416708.300000
+        344631.400000</gml:upperCorner>\n      \t</gml:Envelope>\n      </gml:boundedBy>\n<!--
+        WARNING: FeatureId item 'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'.
+        -->\n    <gml:featureMember>\n      <ms:ea-wfs-area_public_face_inspire>\n
+        \       <ms:long_name>Shropshire Herefordshire Worcestershire and Gloucestershire</ms:long_name>\n
+        \       <ms:short_name>Shrops Heref Worcs and Glos</ms:short_name>\n        <ms:code>SHHRWG</ms:code>\n
+        \       <ms:area_id>31.000000000000000</ms:area_id>\n        <ms:area_name>West</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version:
+  recorded_at: Tue, 08 Mar 2016 15:48:53 GMT
+recorded_with: VCR 3.0.1
