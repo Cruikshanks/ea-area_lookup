@@ -2,8 +2,8 @@ require "simplecov"
 require "byebug"
 require "vcr"
 require "logger"
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'ea/area_lookup'
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+require "ea/area_lookup"
 
 # Stubexternal services = see https://github.com/vcr/vcr
 VCR.configure do |c|

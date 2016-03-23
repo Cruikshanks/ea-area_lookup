@@ -1,10 +1,10 @@
-require 'spec_helper'
+require "spec_helper"
 
 describe EA::AreaLookup do
   let(:coords) { EA::AreaLookup::Coordinates.new(easting: 654321, northing: 123456) }
   let(:api_url) { "http://www.geostore.com/OGC/OGCInterface" }
 
-  it 'has a version number' do
+  it "has a version number" do
     expect(EA::AreaLookup::VERSION).not_to be nil
   end
 

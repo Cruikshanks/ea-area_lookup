@@ -4,6 +4,8 @@ ruby "2.2.3"
 # Specify your gem's dependencies in gemspec
 gemspec
 
+gem "before_commit"
+
 # Use the test group rather than putting gems for testing in the gemspec with
 # add_development_dependency
 group :test do

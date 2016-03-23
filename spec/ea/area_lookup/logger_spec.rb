@@ -15,7 +15,7 @@ describe EA::AreaLookup do
     class MyLogger < Logger; end
 
     it "lets you being your own logger" do
-      my_logger =  MyLogger.new($stdout).tap do |log|
+      my_logger = MyLogger.new($stdout).tap do |log|
         log.progname = "my_logger"
         log.level = Logger::WARN
       end

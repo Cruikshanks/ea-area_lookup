@@ -1,7 +1,6 @@
 require "spec_helper"
 
 describe EA::AreaLookup::Configuration do
-
   it { is_expected.to respond_to(:administrative_area_api_url) }
 
   describe "#configure" do

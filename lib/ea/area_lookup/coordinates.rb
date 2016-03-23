@@ -1,4 +1,4 @@
-require 'active_support/core_ext/module/aliasing'
+require "active_support/core_ext/module/aliasing"
 
 module EA
   module AreaLookup

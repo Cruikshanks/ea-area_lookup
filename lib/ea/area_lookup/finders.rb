@@ -4,7 +4,6 @@ require "open-uri"
 module EA
   module AreaLookup
     module Finders
-
       def find_by_coordinates(coords)
         validate_config!
         return nil unless coords && coords.valid?
