@@ -57,7 +57,7 @@ module EA
         result = %i[area_id code area_name short_name long_name].each_with_object({}) do |path, hash|
           hash[path] = xml.xpath("//gml:featureMember/ms:ea-wfs-area_public_face_inspire/ms:#{path}").text
         end
-        result.tap {|h| Rails.logger.debug(h) }
+        result.tap {|h| EA::AreaLookup.logger.debug(h) }
       end
 
       def validate_xml(xml)

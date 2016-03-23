@@ -1,8 +1,7 @@
 # EA::AreaLookup
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ea/area_lookup`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This ruby gem provides a means of looking up the Environnment Agency Administrative Area (e.g. 'Wessex')
+for a given easting and northing. It wraps an API designed for this purpose.
 
 ## Installation
 
@@ -16,20 +15,32 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ea-area_lookup
-
 ## Usage
 
-TODO: Write usage instructions here
+### Rails
+
+Create an intializer eg ```config/initializers/area_lookup.rb```
+
+```ruby
+EA::AreaLookup.configure do |config|
+  config.administrative_area_api_url = "http://admin-area-api-base-url"
+end
+```
+
+Now you can do the following:
+
+```ruby
+coords = EA::AreaLookup::Coordinates.new(easting: 123, northing: 456)
+(or EA::AreaLookup::Coordinates.new(x: 123, y: 456))
+result = EA::AreaLookup.find_by_coordinates(coords)
+p result
+=> {:area_id=>"XX", :code=>"WESSEX", :area_name=>"Wessex", :short_name=>"Wessex", :long_name=>"Wessex"}
+```
+
+Note that the `Coordinates` class accepts x and y synonymously with easting and northing.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ea-area_lookup.
+After checking out the repo, run `bin/setup` to install dependencies.
+Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt
+that will allow you to experiment.
