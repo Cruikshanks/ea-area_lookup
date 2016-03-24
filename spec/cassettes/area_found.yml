@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.geostore.com/OGC/OGCInterface?Filter=(%3CFilter%3E%3CIntersects%3E%3CPropertyName%3EGeometry%3C/PropertyName%3E%3Cgml:Point%3E%3Cgml:coordinates%3E358205.03,172708.07%3C/gml:coordinates%3E%3C/gml:Point%3E%3C/Intersects%3E%3C/Filter%3E)&INTERFACE=ENVIRONMENTWFS&MSVER=6&REQUEST=GetFeature&SERVICE=WFS&SRS=EPSG:27700&TYPENAME=ea-wfs-area_public_face_inspire&VERSION=1.1.0&propertyName=long_name,short_name,code,area_id,area_name
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=+bp0cyTDqbV1exUd5bHxf+C4; Path=/OGC
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Thu, 24 Mar 2016 09:25:19 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version='1.0' encoding=\"ISO-8859-1\" ?>\n<wfs:FeatureCollection\n
+        \  xmlns:ms=\"http://mapserver.gis.umn.edu/mapserver\"\n   xmlns:gml=\"http://www.opengis.net/gml\"\n
+        \  xmlns:wfs=\"http://www.opengis.net/wfs\"\n   xmlns:ogc=\"http://www.opengis.net/ogc\"\n
+        \  xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n   xsi:schemaLocation=\"http://mapserver.gis.umn.edu/mapserver
+        http://www.geostore.com/OGC/OGCInterface?SESSIONID=623510978&amp;INTERFACE=ENVIRONMENTWFS&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;REQUEST=DescribeFeatureType&amp;TYPENAME=ea-wfs-area_public_face_inspire&amp;OUTPUTFORMAT=text/xml;%20subtype=gml/3.1.1
+        \ http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd\">\n
+        \     <gml:boundedBy>\n      \t<gml:Envelope srsName=\"EPSG:27700\">\n      \t\t<gml:lowerCorner>271490.100000
+        68218.900000</gml:lowerCorner>\n      \t\t<gml:upperCorner>435913.500000 200505.600000</gml:upperCorner>\n
+        \     \t</gml:Envelope>\n      </gml:boundedBy>\n<!-- WARNING: FeatureId item
+        'ogr_fid' not found in typename 'ea-wfs-area_public_face_inspire'. -->\n    <gml:featureMember>\n
+        \     <ms:ea-wfs-area_public_face_inspire>\n        <ms:long_name>Wessex</ms:long_name>\n
+        \       <ms:short_name>Wessex</ms:short_name>\n        <ms:code>WESSEX</ms:code>\n
+        \       <ms:area_id>28.000000000000000</ms:area_id>\n        <ms:area_name>Wessex</ms:area_name>\n
+        \     </ms:ea-wfs-area_public_face_inspire>\n    </gml:featureMember>\n</wfs:FeatureCollection>\n\n"
+    http_version: 
+  recorded_at: Thu, 24 Mar 2016 09:25:30 GMT
+recorded_with: VCR 3.0.1
