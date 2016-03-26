@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 ruby "2.2.3"
 
 # Specify your gem's dependencies in gemspec
@@ -12,7 +12,7 @@ group :test do
   gem "vcr", "~> 3.0"
   gem "webmock", "~> 1.24"
   gem "shoulda-matchers", "~> 3.1", require: false
-  gem 'simplecov', require: false # Tool for checking code coverage
+  gem "simplecov", require: false # Tool for checking code coverage
   gem "byebug"
   gem "awesome_print", require: false # Pretty pring output e.g. 'ap thing' - require 'ap' first
 end

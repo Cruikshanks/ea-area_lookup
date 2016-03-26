@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe EA::AreaLookup do
   describe "Finders" do
-    let(:coords) { EA::AreaLookup::Coordinates.new(easting: 654321, northing: 123456) }
+    let(:coords) { EA::AreaLookup::Coordinates.new(easting: 654_321, northing: 123_456) }
     let(:api_url) { "http://www.geostore.com/OGC/OGCInterface" }
 
     it "has a version number" do
@@ -12,15 +12,15 @@ describe EA::AreaLookup do
     context "happy path" do
       before { EA::AreaLookup.config.administrative_area_api_url = api_url }
       context "area found" do
-        let(:coords) { EA::AreaLookup::Coordinates.new(easting: 358205.03, northing: 172708.07) }
+        let(:coords) { EA::AreaLookup::Coordinates.new(easting: 358_205.03, northing: 172_708.07) }
         it "returns hash with area info" do
           VCR.use_cassette("area_found") do
             hash = described_class.find_by_coordinates(coords)
-            expect(hash).to eq({area_id: "28.000000000000000",
-                                code: "WESSEX",
-                                area_name: "Wessex",
-                                short_name: "Wessex",
-                                long_name: "Wessex"})
+            expect(hash).to eq(area_id: "28.000000000000000",
+                               code: "WESSEX",
+                               area_name: "Wessex",
+                               short_name: "Wessex",
+                               long_name: "Wessex")
           end
         end
       end
@@ -30,11 +30,11 @@ describe EA::AreaLookup do
         it "returns empty hash" do
           VCR.use_cassette("area_not_found") do
             hash = described_class.find_by_coordinates(coords)
-            expect(hash).to eq({area_id: "",
-                                code: "",
-                                area_name: "",
-                                short_name: "",
-                                long_name: ""})
+            expect(hash).to eq(area_id: "",
+                               code: "",
+                               area_name: "",
+                               short_name: "",
+                               long_name: "")
           end
         end
       end
@@ -59,7 +59,7 @@ describe EA::AreaLookup do
         it "raise an error if the request is malformed (see cassette)" do
           EA::AreaLookup.config.administrative_area_api_url = api_url
           VCR.use_cassette("malformed_request") do
-            expect {described_class.find_by_coordinates(coords)}
+            expect { described_class.find_by_coordinates(coords) }
               .to raise_error(EA::AreaLookup::ApiInvalidRequestError)
           end
         end
