@@ -6,21 +6,16 @@ require "ea/area_lookup/version"
 Gem::Specification.new do |spec|
   spec.name          = "ea-area_lookup"
   spec.version       = EA::AreaLookup::VERSION
-  spec.authors       = ["Tim Crowe"]
-  spec.email         = ["tim@woodpigeon.com"]
+  spec.authors       = ["Digital Services Team, EnvironmentAgency"]
+  spec.email         = ["dst@environment-agency.gov.uk"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Provides a means of looking-up Environment Agency administrative areas."
+  spec.description   = "Provides a means of looking-up an Environment Agency administrative area "\
+                       "using the co-ordinates of any point in England."
+  spec.homepage      = "https://github.com/EnvironmentAgency"
+  spec.license       = "The Open Government Licence (OGL) Version 3"
 
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
-
+  spec.required_ruby_version = '>= 2.2'
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }

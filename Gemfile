@@ -13,6 +13,5 @@ group :test do
   gem "webmock", "~> 1.24"
   gem "shoulda-matchers", "~> 3.1", require: false
   gem "simplecov", require: false # Tool for checking code coverage
-  gem "byebug"
   gem "awesome_print", require: false # Pretty pring output e.g. 'ap thing' - require 'ap' first
 end
