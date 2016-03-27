@@ -1,10 +1,7 @@
-require "active_support/configurable"
-
 module EA
   module AreaLookup
     class Configuration
-      include ActiveSupport::Configurable
-      config_accessor(:administrative_area_api_url)
+      attr_accessor :administrative_area_api_url
     end
 
     def self.config
