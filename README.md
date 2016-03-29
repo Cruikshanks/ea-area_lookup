@@ -1,25 +1,29 @@
 # EA::AreaLookup
 
+[![Build Status](https://travis-ci.org/EnvironmentAgency/ea-area_lookup.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/ea-area_lookup)
+
 This ruby gem provides a means of looking up the Environnment Agency Administrative Area (e.g. 'Wessex')
 for a given easting and northing. It wraps an API designed for this purpose.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile
 
 ```ruby
 gem 'ea-area_lookup'
 ```
 
-And then execute:
+And then update your dependencies by calling
 
-    $ bundle
+```bash
+bundle install
+```
 
 ## Usage
 
 ### Rails
 
-Create an intializer eg ```config/initializers/area_lookup.rb```
+Create an intializer e.g. `config/initializers/area_lookup.rb`
 
 ```ruby
 EA::AreaLookup.configure do |config|
@@ -27,7 +31,7 @@ EA::AreaLookup.configure do |config|
 end
 ```
 
-Now you can do the following:
+Now you can do the following
 
 ```ruby
 coords = EA::AreaLookup::Coordinates.new(easting: 123, northing: 456)
@@ -42,8 +46,7 @@ Note that the `Coordinates` class accepts x and y synonymously with easting and 
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies.
-Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt
-that will allow you to experiment.
+Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 ## Contributing to this project
 
