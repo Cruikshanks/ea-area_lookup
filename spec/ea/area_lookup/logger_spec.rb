@@ -4,11 +4,10 @@ describe EA::AreaLookup do
   subject { EA::AreaLookup }
 
   describe "#logger" do
-    it { is_expected.to respond_to(:logger) }
-
     it "creates a default logger with log level DEBUG if no logger supplied" do
-      expect(described_class.logger).to_not be_nil
+      described_class.logger = nil
       expect(described_class.logger).to be_a(Logger)
+      expect(described_class.logger.progname).to_not be_nil
       expect(described_class.logger.level).to eq(Logger::DEBUG)
     end
 
