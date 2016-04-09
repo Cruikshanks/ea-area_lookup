@@ -11,7 +11,7 @@ engines:
   rubocop:
     enabled: true
   brakeman:
-    enabled: true
+    enabled: false
   rubymotion:
     enabled: true
 ratings:
