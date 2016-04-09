@@ -1,8 +1,10 @@
 # EA::AreaLookup
 
 [![Build Status](https://travis-ci.org/EnvironmentAgency/ea-area_lookup.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/ea-area_lookup)
+[![Code Climate](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/badges/gpa.svg)](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup)
+[![Test Coverage](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/badges/coverage.svg)](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/coverage)
 
-This ruby gem provides a means of looking up the Environnment Agency Administrative Area (e.g. 'Wessex')
+This ruby gem provides a means of looking up the Environment Agency Administrative Area (e.g. 'Wessex')
 for a given easting and northing. It wraps an API designed for this purpose.
 
 ## Installation
