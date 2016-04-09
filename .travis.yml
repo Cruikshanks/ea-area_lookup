@@ -14,3 +14,12 @@ before_install: gem install bundler -v 1.11.2
 branches:
   only:
     - master
+
+# This section was added as per https://docs.travis-ci.com/user/code-climate/
+# To protect our codeclimate stats rather than adding the Codeclimate API key for ea-area_lookup
+# in the open we used this guide https://docs.travis-ci.com/user/encryption-keys/ to encryt the
+# value. Essentially install travis gem, then run `travis encrypt <my_code_climate_api_key>`
+addons:
+  code_climate:
+    repo_token:
+      secure: "DsWI1kzx5RIfB/QQysErQTW94FF6v512q3vqFChSXaAViJA6LgU9coBRiLtZ3RyE0YcvPzu0B1q/fqR4sDq4xG1L6VMY2PlF4ZI57AaPa1WFmzT9mCAhYCbpYKXuMySCoS4YvoHrHgwd30M0RYmiRtZY75Olmbd1PsbbZGfnIGwcEchujHb6oQ6WKgEAqq6zvHHf5QM18oSm4ZCFSYijGU7BvxMsLTToFuPnndGomWHCfMDSyBkC2wt5pmfdsjbirrsPPnFbYxCOCxGk77WWw9G+swUZclgUiUn1q2tSFgri27zufbFuGknDWf9HMiMqzgfCO8kut/78CqRjt5BtUm2otJLEhlpmL4t9rqDUKl/hmc+asxfoj04qP1cNRmjZf0QYbT4rFlsFlcNgYNcZcLf66ry9c8WXcpV6qvKukaT9Xyj1/KAVXDqO1EUd1oEBIoKnILW7H4Zhbjhu6lq2ga47Wux0IrMdtHE2RwjdtCxwfhkuUcblfnPpjW8tXeDND0nE/Se45rXZ/YwojZSeqyZCvZbcXMOvggzRQeAgi02sruw33oZU6W/f8VOjC5VrB1KEHm4j0n21dI6ENu0D+tbjBIW0TvI47hAuV/R1v7kHJVbSIcAedtxWt87mSdyQkOukCVSYHMOKJHY6T1EtZlK5V9RHDrHD8KIMeJV/Dx0="
