@@ -22,6 +22,7 @@ And then update your dependencies by calling
 bundle install
 ```
 
+
 ## Usage
 
 ### Rails
@@ -45,6 +46,45 @@ p result
 ```
 
 Note that the `Coordinates` class accepts x and y synonymously with easting and northing.
+
+## Testing with RSpec
+A test helper is included that provides methods that will stub calls to
+EA::AreaLookup methods in RSpec tests.
+
+The available mock methods are:
+
+```
+mock_ea_area_lookup_find_by_coordinates
+mock_no_results_ea_area_lookup_find_by_coordinates
+mock_failure_of_ea_area_lookup_find_by_coordinates
+```
+
+To enable them add this to the rspec configuration (for example, within a
+ `RSpec.configure do |config|` block in a Rails app's `spec/rails_helper.rb`):
+
+```ruby
+config.include EA::AreaLookup::TestHelper::RspecMocks
+```
+
+This will make the methods defined in `lib/ea/area_lookup/test_helper/rspec_mocks.rb`
+available within the host app's rspec tests. For example:
+
+```ruby
+describe "postcode lookup" do
+  before do
+    mock_ea_area_lookup_find_by_coordinates
+  end
+
+  it "some tests that use data returned by a coordinate lokup" do
+    ....
+    # Any EA::AreaLookup.find_by_coordinates calls made in this spec will return the same
+    # mocked data, and no external requests will be made, so you don't need webmock/VCR.
+    # You can pass any coord aruments and they will
+    # always return the mocked data and will not echo back your input.
+    # See test_helper/area_lookup.yml to examine the mock data that will be returned.
+  end
+end
+```
 
 ## Development
 

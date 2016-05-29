@@ -1,0 +1,14 @@
+---
+find_by_coordinates:
+  :area_id: '28.000000000000000'
+  :code: WESSEX
+  :area_name: Wessex
+  :short_name: Wessex
+  :long_name: Wessex"
+
+find_by_coordinates_not_found:
+  :area_id: ''
+  :code: ''
+  :area_name: ''
+  :short_name: ''
+  :long_name: ''
