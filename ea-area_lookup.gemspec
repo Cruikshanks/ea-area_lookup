@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/EnvironmentAgency"
   spec.license       = "The Open Government Licence (OGL) Version 3"
 
-  spec.required_ruby_version = '>= 2.2'
+  spec.required_ruby_version = ">= 2.2"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
