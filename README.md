@@ -1,6 +1,7 @@
 # EA::AreaLookup
 
 [![Build Status](https://travis-ci.org/EnvironmentAgency/ea-area_lookup.svg?branch=master)](https://travis-ci.org/EnvironmentAgency/ea-area_lookup)
+[![security](https://hakiri.io/github/EnvironmentAgency/ea-area_lookup/master.svg)](https://hakiri.io/github/EnvironmentAgency/ea-area_lookup/master)
 [![Code Climate](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/badges/gpa.svg)](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup)
 [![Test Coverage](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/badges/coverage.svg)](https://codeclimate.com/github/EnvironmentAgency/ea-area_lookup/coverage)
 [![Gem Version](https://badge.fury.io/rb/ea-area_lookup.svg)](https://badge.fury.io/rb/ea-area_lookup)
