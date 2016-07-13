@@ -6,22 +6,21 @@ module EA
     module Finders
 
       def find_admin_area_by_coordinates(coords)
-        validate_config!
-        return nil unless coords && coords.valid?
-        typename = "ea-wfs-area_public_face_inspire"
-        xml = fetch_area_from_api(coords, typename)
-        parse_xml(xml, typename)
+        find_area_by_coordinates(coords, "ea-wfs-area_public_face_inspire")
       end
 
       def find_water_management_area_by_coordinates(coords)
-        validate_config!
-        return nil unless coords && coords.valid?
-        typename = "ea-wfs-area_water_management_inspire"
-        xml = fetch_area_from_api(coords, typename)
-        parse_xml(xml, typename)
+        find_area_by_coordinates(coords, "ea-wfs-area_water_management_inspire")
       end
 
       private
+
+      def find_area_by_coordinates(coords, typename)
+        validate_config!
+        return unless coords && coords.valid?
+        xml = fetch_area_from_api(coords, typename)
+        parse_xml(xml, typename)
+      end
 
       DEFAULT_API_PARAMS = {
         SERVICE: "WFS",
