@@ -31,7 +31,7 @@ Create an intializer e.g. `config/initializers/area_lookup.rb`
 
 ```ruby
 EA::AreaLookup.configure do |config|
-  config.administrative_area_api_url = "http://admin-area-api-base-url"
+  config.area_api_url = "http://admin-area-api-base-url"
 end
 ```
 
@@ -40,7 +40,8 @@ Now you can do the following
 ```ruby
 coords = EA::AreaLookup::Coordinates.new(easting: 123, northing: 456)
 (or EA::AreaLookup::Coordinates.new(x: 123, y: 456))
-result = EA::AreaLookup.find_by_coordinates(coords)
+result = EA::AreaLookup.find_admin_area_by_coordinates(coords)
+# or result = EA::AreaLookup.find_water_management_area_by_coordinates(coords)
 p result
 => {:area_id=>"XX", :code=>"WESSEX", :area_name=>"Wessex", :short_name=>"Wessex", :long_name=>"Wessex"}
 ```
