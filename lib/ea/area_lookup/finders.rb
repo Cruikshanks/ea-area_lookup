@@ -4,11 +4,21 @@ require "open-uri"
 module EA
   module AreaLookup
     module Finders
-      def find_by_coordinates(coords)
+
+      def find_admin_area_by_coordinates(coords)
         validate_config!
         return nil unless coords && coords.valid?
-        xml = fetch_admin_area_from_api(coords)
-        parse_xml(xml)
+        typename = "ea-wfs-area_public_face_inspire"
+        xml = fetch_area_from_api(coords, typename)
+        parse_xml(xml, typename)
+      end
+
+      def find_water_management_area_by_coordinates(coords)
+        validate_config!
+        return nil unless coords && coords.valid?
+        typename = "ea-wfs-area_water_management_inspire"
+        xml = fetch_area_from_api(coords, typename)
+        parse_xml(xml, typename)
       end
 
       private
@@ -20,22 +30,25 @@ module EA
         REQUEST: "GetFeature",
         MSVER: 6,
         SRS: "EPSG:27700",
-        TYPENAME: "ea-wfs-area_public_face_inspire",
+
         propertyName: "long_name,short_name,code,area_id,area_name",
         Filter: ""
       }.freeze
 
       def api_url
-        EA::AreaLookup.config.administrative_area_api_url
+        EA::AreaLookup.config.area_api_url
       end
 
       def validate_config!
         return if api_url
-        raise EA::AreaLookup::InvalidConfigError, "Missing administrative_area_api_url"
+        raise EA::AreaLookup::InvalidConfigError, "Missing area_api_url"
       end
 
-      def fetch_admin_area_from_api(coords)
-        params = DEFAULT_API_PARAMS.merge(Filter: "(#{filter_xml(coords)})")
+      def fetch_area_from_api(coords, typename)
+        params = DEFAULT_API_PARAMS
+                 .merge(Filter: "(#{filter_xml(coords)})")
+                 .merge(TYPENAME: typename)
+
         full_url = %(#{api_url}?#{params.map { |k, v| "#{k}=#{v}" }.join('&')})
         open full_url, proxy: ENV["http_proxy"]
       rescue => e
@@ -50,12 +63,12 @@ module EA
         "</Intersects></Filter>"
       end
 
-      def parse_xml(response)
+      def parse_xml(response, typename)
         xml = Nokogiri::XML response
         validate_xml(xml)
 
         result = %i(area_id code area_name short_name long_name).each_with_object({}) do |path, hash|
-          hash[path] = xml.xpath("//gml:featureMember/ms:ea-wfs-area_public_face_inspire/ms:#{path}").text
+          hash[path] = xml.xpath("//gml:featureMember/ms:#{typename}/ms:#{path}").text
         end
         result.tap { |h| EA::AreaLookup.logger.debug(h) }
       end
