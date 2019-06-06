@@ -1,5 +1,3 @@
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start
 require "simplecov"
 require "byebug"
 require "vcr"
@@ -9,12 +7,6 @@ require "ea/area_lookup"
 
 # Stubexternal services = see https://github.com/vcr/vcr
 VCR.configure do |config|
-  # As per codeclimate "VCR [..] will prevent the codeclimate-test-reporter from
-  # reporting results to codeclimate.com" Recieved this error when first
-  # configuring integration to codeclimate and the fix is to add it to
-  # ignore_hosts.
-  config.ignore_hosts 'codeclimate.com'
-
   config.cassette_library_dir = "spec/cassettes"
   config.hook_into :webmock
   config.ignore_hosts "127.0.0.1"
