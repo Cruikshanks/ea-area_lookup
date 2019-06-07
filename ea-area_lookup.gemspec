@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "nokogiri", "~> 1.6.8"
+  spec.add_dependency "nokogiri", "~> 1.7"
 
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake"
@@ -31,5 +31,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", "~> 1.24"
   spec.add_development_dependency "shoulda-matchers", "~> 3.1"
   spec.add_development_dependency "simplecov"
-  spec.add_development_dependency "before_commit"
 end
