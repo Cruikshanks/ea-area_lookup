@@ -1,32 +1,29 @@
-language: ruby
-cache: bundler
-rvm: 2.3.1
-before_install: gem install bundler -v 1.12.3
-bundler_args: "--binstubs=./bundler_stubs"
-before_script:
-script:
-  - bundle exec rake --trace before_commit:run_without_checks
-  - git config --global user.email test@example.com
-  - git config --global user.name "Test Example"
-  - BUNDLE_GEMFILE=.overcommit_gems.rb bundle exec overcommit --run
-  - bundle exec rspec
-# Have this option to stop travis-ci building twice. Currently we have travis set to build both
-# PR's and pushes. However this means when we push to a PR we have to wait for Travis to finish
-# 2 builds. If we unticked 'pushes' when the PR was finally merged that would not be built. The
-# brute force approach would be to untick build PR's and just build all pushes. We instead have
-# gone with the approach outlined here http://stackoverflow.com/a/31882307
-branches:
-  only:
-    - master
+env:
+  global:
+    - CC_TEST_REPORTER_ID=5fb5a14e6e46bf106b2c94f3fcdc17624a6b7151c565095f254098e38de335db
 
-# This section was added as per https://docs.travis-ci.com/user/code-climate/
-# To protect our codeclimate stats rather than adding the Codeclimate API key for ea-area_lookup
-# in the open we used this guide https://docs.travis-ci.com/user/encryption-keys/ to encryt the
-# value. Essentially install travis gem, then run `travis encrypt <my_code_climate_api_key>`
+language: ruby
+rvm: 2.3.1
+cache: bundler
+
+before_install:
+  - export TZ=UTC
+  - gem install -v 1.17.3 bundler --no-document
+
+before_script:
+  # Setup to support the CodeClimate test coverage submission
+  # As per CodeClimate's documentation, they suggest only running
+  # ./cc-test-reporter commands on travis-ci push builds only. Hence we wrap all
+  # the codeclimate test coverage related commands in a check that tests if we
+  # are in a pull request or not.
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter; fi
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then chmod +x ./cc-test-reporter; fi
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./cc-test-reporter before-build; fi
+
+after_script:
+  - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT; fi
+
 addons:
-  code_climate:
-    repo_token:
-      secure: "DsWI1kzx5RIfB/QQysErQTW94FF6v512q3vqFChSXaAViJA6LgU9coBRiLtZ3RyE0YcvPzu0B1q/fqR4sDq4xG1L6VMY2PlF4ZI57AaPa1WFmzT9mCAhYCbpYKXuMySCoS4YvoHrHgwd30M0RYmiRtZY75Olmbd1PsbbZGfnIGwcEchujHb6oQ6WKgEAqq6zvHHf5QM18oSm4ZCFSYijGU7BvxMsLTToFuPnndGomWHCfMDSyBkC2wt5pmfdsjbirrsPPnFbYxCOCxGk77WWw9G+swUZclgUiUn1q2tSFgri27zufbFuGknDWf9HMiMqzgfCO8kut/78CqRjt5BtUm2otJLEhlpmL4t9rqDUKl/hmc+asxfoj04qP1cNRmjZf0QYbT4rFlsFlcNgYNcZcLf66ry9c8WXcpV6qvKukaT9Xyj1/KAVXDqO1EUd1oEBIoKnILW7H4Zhbjhu6lq2ga47Wux0IrMdtHE2RwjdtCxwfhkuUcblfnPpjW8tXeDND0nE/Se45rXZ/YwojZSeqyZCvZbcXMOvggzRQeAgi02sruw33oZU6W/f8VOjC5VrB1KEHm4j0n21dI6ENu0D+tbjBIW0TvI47hAuV/R1v7kHJVbSIcAedtxWt87mSdyQkOukCVSYHMOKJHY6T1EtZlK5V9RHDrHD8KIMeJV/Dx0="
 deploy:
   provider: rubygems
   api_key:
@@ -34,5 +31,5 @@ deploy:
   gem: ea-area_lookup
   on:
     tags: true
-    repo: EnvironmentAgency/ea-area_lookup
+    repo: DEFRA/ea-area_lookup
     all_branches: true
