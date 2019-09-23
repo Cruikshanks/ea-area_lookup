@@ -6,14 +6,20 @@ require "ea/area_lookup/version"
 Gem::Specification.new do |spec|
   spec.name          = "ea-area_lookup"
   spec.version       = EA::AreaLookup::VERSION
-  spec.authors       = ["Digital Services Team, EnvironmentAgency"]
-  spec.email         = ["dst@environment-agency.gov.uk"]
+  spec.authors       = ["Defra"]
+  spec.email         = ["alan.cruikshanks@environment-agency.gov.uk"]
 
-  spec.summary       = "Provides a means of looking-up Environment Agency administrative areas."
-  spec.description   = "Provides a means of looking-up an Environment Agency administrative area "\
-                       "using the co-ordinates of any point in England."
-  spec.homepage      = "https://github.com/EnvironmentAgency"
+  spec.summary       = "No longer maintained. Search for defra_ruby_area instead"
+  spec.description   = "No longer maintained. Use defra_ruby_area instead "\
+                       "(https://github.com/DEFRA/defra-ruby-area)"
+  spec.homepage      = "https://github.com/DEFRA"
   spec.license       = "The Open Government Licence (OGL) Version 3"
+
+  spec.post_install_message = %q(
+  This gem is no longer maintained.
+  Please use http://github.com/DEFRA/defra-ruby-area instead
+
+  )
 
   spec.required_ruby_version = ">= 2.2"
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.2.3
+
+- Archive project
+
 ### 0.2.2
 
 - Update Nokogiri

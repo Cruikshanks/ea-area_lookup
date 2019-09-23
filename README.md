@@ -1,10 +1,6 @@
 # EA::AreaLookup
 
-[![Build Status](https://travis-ci.org/DEFRA/ea-area_lookup.svg?branch=master)](https://travis-ci.org/DEFRA/ea-area_lookup)
-[![security](https://hakiri.io/github/DEFRA/ea-area_lookup/master.svg)](https://hakiri.io/github/DEFRA/ea-area_lookup/master)
-[![Code Climate](https://codeclimate.com/github/DEFRA/ea-area_lookup/badges/gpa.svg)](https://codeclimate.com/github/DEFRA/ea-area_lookup)
-[![Test Coverage](https://codeclimate.com/github/DEFRA/ea-area_lookup/badges/coverage.svg)](https://codeclimate.com/github/DEFRA/ea-area_lookup/coverage)
-[![Gem Version](https://badge.fury.io/rb/ea-area_lookup.svg)](https://badge.fury.io/rb/ea-area_lookup)
+> This project is no longer maintained and has been replaced by [defra_ruby_area](https://github.com/DEFRA/defra-ruby-area)
 
 This ruby gem provides a means of looking up the Environment Agency Administrative Area (e.g. 'Wessex')
 for a given easting and northing. It wraps an API designed for this purpose.
